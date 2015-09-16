@@ -7,7 +7,9 @@ import time    #imports the time module which allows for a pause inbetween print
 
 score = 0    #defines the user's score before starting
 
-print("Welcome to The Quiz!\nWe'll be asking a series of general knowledge questions.")    #introduces the user to the quiz on two seperate lines
+name = input("What is your name user?")
+
+print("Welcome to The Quiz, ",name,"\nWe'll be asking a series of general knowledge questions.")    #introduces the user to the quiz on two seperate lines
 time.sleep(1)    #stops the program for one second
 
 answerOne = input("Question 1:\nWhich US state is named on the label of a Jack Daniels bottle?   ")
