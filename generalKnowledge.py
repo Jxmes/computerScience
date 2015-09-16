@@ -50,7 +50,7 @@ if answerFour == "cake":
      score = score + 1
 else:
     print("Unlucky! No points scored ಠ_ಠ.")
-    time.sleep(1)
+    time.sleep(1) #this makes it sleep
 
 answerFive = input("Question 5:\nSince 1995, how many teams compete in The Rugby World Cup?    ")
 time.sleep(1)
@@ -66,6 +66,7 @@ print("And that's it! your total score was...,")
 time.sleep(2)
 print(score,"!!!\nCONGRATULATIONS (づ｡◕‿‿◕｡)づ")
 print(name)
+
 
 
                  
