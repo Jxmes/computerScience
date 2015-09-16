@@ -7,7 +7,7 @@ import time    #imports the time module which allows for a pause inbetween print
 
 score = 0    #defines the user's score before starting
 
-name = input("What is your name user?")
+name = input("What is your name user?   ")
 
 print("Welcome to The Quiz, ",name,"\nWe'll be asking a series of general knowledge questions.")    #introduces the user to the quiz on two seperate lines
 time.sleep(1)    #stops the program for one second
