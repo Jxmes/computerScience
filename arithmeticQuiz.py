@@ -1,12 +1,23 @@
 import random
 import time
 
-counter = 0
+counter = 1
 score = 0
 numberOne = 0
 numberTwo = 0
-operator = 0
+operatorList = ["+","-","*"]
 
-while counter < 10:
+for counter in range(0,10):
+  numberOne = random.randint(0,11)
+  numberTwo = random.randint(0,11)
+  operator = random.choice(operatorList)
+  print(numberOne, operator, numberTwo)
   
-  
+  #question = numberOne, operator, numberTwo
+  #answer = eval(question)
+  #print (question, "=???")
+  #reply = int(input("Enter your answer: "))
+  #if reply == answer :]
+  #  print ("Correct!")
+  #else :
+  #  print ("Unlucky!")
