@@ -39,7 +39,7 @@ for counter in range(0,11):
   res = int(input("Write your answer here: "))
   
   if res == ans:
-    print("Congratulations,"name,"! 1 point scored.")
+    print("Congratulations,",name,"! 1 point scored.")
     score = score + 1
   else:
     print("Unlucky",name,"! No points scored.")
