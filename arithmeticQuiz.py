@@ -5,23 +5,23 @@ counter = 1
 score = 0
 numberOne = 0
 numberTwo = 0
-operatorList = [+,-,*]
+operator = 0
 
-for counter in range(0,10):
+def add(x, y):
+  return x + y;
+  
+def subtract (x, y):
+  return x - y;
+  
+def multiply (x, y):
+  return x * y;
+
+for counter in range(0,11):
   numberOne = random.randint(0,11)
   numberTwo = random.randint(0,11)
-  operator = random.choice(operatorList)
-  print(numberOne, operator, numberTwo)
+  operator = random.randint(0,4)
   
-  question = numberOne, operator, numberTwo
-  print(question)
-  time.sleep(2)
-  answer = eval(question)
-  print(answer)
-  
-  #print (question, "=???")
-  #reply = int(input("Enter your answer: "))
-  #if reply == answer :]
-  #  print ("Correct!")
-  #else :
-  #  print ("Unlucky!")
+  if operator == 1:
+    ans = add(numberOne, numberTwo)
+  elif operator == 2:
+    ans = subtract
