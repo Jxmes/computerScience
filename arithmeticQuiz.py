@@ -5,23 +5,37 @@ counter = 1
 score = 0
 numberOne = 0
 numberTwo = 0
-operatorList = [+,-,*]
+operator = 0
 
-for counter in range(0,10):
+def add(x, y):
+  return x + y;
+  
+def subtract (x, y):
+  return x - y;
+  
+def multiply (x, y):
+  return x * y;
+
+for counter in range(0,11):
+  counter = counter + 1
   numberOne = random.randint(0,11)
   numberTwo = random.randint(0,11)
-  operator = random.choice(operatorList)
-  print(numberOne, operator, numberTwo)
+  operator = random.randint(0,4)
   
-  question = numberOne, operator, numberTwo
-  print(question)
-  time.sleep(2)
-  answer = eval(question)
-  print(answer)
+  if operator == 1:
+    print("Question ",counter,"What is ",numberOne,"+",numberTwo,)
+    ans = add(numberOne, numberTwo)
+  elif operator == 2:
+    print("Question ",counter,"What is ",numberOne,"-",numberTwo,)
+    ans = subtract(numberOne, numberTwo)
+  else:
+    print("Question ",counter,"What is ",numberOne,"*",numberTwo)
+    ans = multiply(numberOne, numberTwo)
   
-  #print (question, "=???")
-  #reply = int(input("Enter your answer: "))
-  #if reply == answer :]
-  #  print ("Correct!")
-  #else :
-  #  print ("Unlucky!")
+  res = int(input("Write your answer here: "))
+  
+  if res == ans:
+    print("Congratulations! 1 point scored.")
+    score = score + 1
+  else:
+    print("Unlucky! No points scored.")
