@@ -50,3 +50,9 @@ for counter in range(0,10):
     time.sleep(1)
   
 print("That's it! You've completed the quiz.\nYour total socore was...",score,"Well done,",name)
+if score =< 5:
+  print("Do some practice and have another go.")
+elif score < 7:
+  print("You're almost there! have another try.")
+else:
+  print("You've done very well!")
