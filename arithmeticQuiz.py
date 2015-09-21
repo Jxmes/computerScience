@@ -5,7 +5,7 @@ counter = 1
 score = 0
 numberOne = 0
 numberTwo = 0
-operatorList = ["+","-","*"]
+operatorList = [+,-,*]
 
 for counter in range(0,10):
   numberOne = random.randint(0,11)
@@ -13,8 +13,12 @@ for counter in range(0,10):
   operator = random.choice(operatorList)
   print(numberOne, operator, numberTwo)
   
-  #question = numberOne, operator, numberTwo
-  #answer = eval(question)
+  question = numberOne, operator, numberTwo
+  print(question)
+  time.sleep(2)
+  answer = eval(question)
+  print(answer)
+  
   #print (question, "=???")
   #reply = int(input("Enter your answer: "))
   #if reply == answer :]
