@@ -23,13 +23,13 @@ for counter in range(0,11):
   operator = random.randint(0,4)
   
   if operator == 1:
-    print("Question ",counter,"What is ",numberOne,"+"numberTwo,)
+    print("Question ",counter,"What is ",numberOne,"+",numberTwo,)
     ans = add(numberOne, numberTwo)
   elif operator == 2:
     print("Question ",counter,"What is ",numberOne,"-",numberTwo,)
     ans = subtract(numberOne, numberTwo)
   else:
-    print("Question ",counter,"What is ",numberOne,"*",numberTw
+    print("Question ",counter,"What is ",numberOne,"*",numberTwo)
     ans = multiply(numberOne, numberTwo)
   
   res = int(input("Write your answer here: "))
