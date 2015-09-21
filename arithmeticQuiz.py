@@ -20,22 +20,22 @@ def subtract (x, y):
 def multiply (x, y):
   return x * y;
 
-for counter in range(0,11):
+for counter in range(0,10):
   counter = counter + 1
   numberOne = random.randint(0,11)
   numberTwo = random.randint(0,11)
   operator = random.randint(0,4)
   
   if operator == 1:
-    print("Question ",counter,"What is ",numberOne,"+",numberTwo,)
+    print("Question",counter,"What is ",numberOne,"+",numberTwo,)
     time.sleep(1)
     ans = add(numberOne, numberTwo)
   elif operator == 2:
-    print("Question ",counter,"What is ",numberOne,"-",numberTwo,)
+    print("Question",counter,"What is ",numberOne,"-",numberTwo,)
     time.sleep(1)
     ans = subtract(numberOne, numberTwo)
   else:
-    print("Question ",counter,"What is ",numberOne,"*",numberTwo)
+    print("Question",counter,"What is ",numberOne,"*",numberTwo)
     time.sleep(1)
     ans = multiply(numberOne, numberTwo)
   
