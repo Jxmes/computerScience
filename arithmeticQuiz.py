@@ -28,20 +28,25 @@ for counter in range(0,11):
   
   if operator == 1:
     print("Question ",counter,"What is ",numberOne,"+",numberTwo,)
+    time.sleep(1)
     ans = add(numberOne, numberTwo)
   elif operator == 2:
     print("Question ",counter,"What is ",numberOne,"-",numberTwo,)
+    time.sleep(1)
     ans = subtract(numberOne, numberTwo)
   else:
     print("Question ",counter,"What is ",numberOne,"*",numberTwo)
+    time.sleep(1)
     ans = multiply(numberOne, numberTwo)
   
   res = int(input("Write your answer here: "))
   
   if res == ans:
     print("Congratulations,",name,"! 1 point scored.")
+    time.sleep(1)
     score = score + 1
   else:
     print("Unlucky",name,"! No points scored.")
+    time.sleep(1)
   
 print("That's it! You've completed the quiz.\nYour total socore was...",score,"Well done,",name)
