@@ -24,4 +24,16 @@ for counter in range(0,11):
   if operator == 1:
     ans = add(numberOne, numberTwo)
   elif operator == 2:
-    ans = subtract
+    ans = subtract(numberOne, numberTwo)
+  else:
+    ans = multiply(numberOne, numberTwo)
+  
+  print("Qestion ",counter,"What is ",ans)
+  res = int(input("Write your answer here: "))
+  
+  if res == ans:
+    print("Congratulations! 1 point scored.")
+    score = score + 1
+  else:
+    print("Unlucky! No points scored.")
+    
