@@ -7,6 +7,10 @@ numberOne = 0
 numberTwo = 0
 operator = 0
 
+name = input("What is your name user?  ")
+print("Weclome to the quiz,",name)
+time.sleep(1)
+
 def add(x, y):
   return x + y;
   
@@ -35,7 +39,9 @@ for counter in range(0,11):
   res = int(input("Write your answer here: "))
   
   if res == ans:
-    print("Congratulations! 1 point scored.")
+    print("Congratulations,"name,"! 1 point scored.")
     score = score + 1
   else:
-    print("Unlucky! No points scored.")
+    print("Unlucky",name,"! No points scored.")
+  
+print("That's it! You've completed the quiz.\nYour total socore was...",score,"Well done,",name)
