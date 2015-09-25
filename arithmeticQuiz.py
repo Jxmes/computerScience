@@ -8,6 +8,11 @@ numberTwo = 0
 operator = 0
 
 name = input("What is your name user?  ")
+
+while name == "":
+   time.sleep(1)
+   name = input("Hello, \nWhat is your name? ")
+
 print("Weclome to the quiz,",name)
 time.sleep(1)
 
