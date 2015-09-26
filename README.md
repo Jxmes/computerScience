@@ -1,5 +1,7 @@
 # computerScience
 
+[![Stories in Ready](https://badge.waffle.io/A1fus/computerScience.png?label=ready&title=Ready)](http://waffle.io/A1fus/computerScience)
+
 
 [![Throughput Graph](https://graphs.waffle.io/A1fus/computerScience/throughput.svg)](https://waffle.io/A1fus/computerScience/metrics)
 
