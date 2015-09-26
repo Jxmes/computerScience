@@ -13,5 +13,13 @@ WHILE counter < 10:
     generate numberTwo;
     generate operator;
     
-    OUTPUT question(numberOne, operator, numberTwo)
+    OUTPUT question(numberOne, operator, numberTwo);
+    add 1 to counter;
+    INPUT answer;
+    
+    IF answer IS == question:
+      add 1 to score;
+      OUTPUT congratulations message;
+    ELSE:
+      OUTPUT unlucky message;
 ```
