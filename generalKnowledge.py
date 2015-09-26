@@ -66,9 +66,3 @@ print("And that's it! your total score was...,")
 time.sleep(2)
 print(score,"!!!\nCONGRATULATIONS (づ｡◕‿‿◕｡)づ")
 print(name)
-
-
-
-                 
-
-

@@ -18,10 +18,10 @@ time.sleep(1)
 
 def add(x, y):
   return x + y;
-  
+
 def subtract (x, y):
   return x - y;
-  
+
 def multiply (x, y):
   return x * y;
 
@@ -30,7 +30,7 @@ for counter in range(0,10):
   numberOne = random.randint(0,11)
   numberTwo = random.randint(0,11)
   operator = random.randint(0,4)
-  
+
   if operator == 1:
     print("Question",counter,"What is ",numberOne,"+",numberTwo,)
     time.sleep(1)
@@ -43,9 +43,9 @@ for counter in range(0,10):
     print("Question",counter,"What is ",numberOne,"*",numberTwo)
     time.sleep(1)
     ans = multiply(numberOne, numberTwo)
-  
+
   res = int(input("Write your answer here: "))
-  
+
   if res == ans:
     print("Congratulations,",name,"! 1 point scored.")
     time.sleep(1)
@@ -53,7 +53,7 @@ for counter in range(0,10):
   else:
     print("Unlucky",name,"! No points scored.")
     time.sleep(1)
-  
+
 print("That's it! You've completed the quiz.\nYour total socore was...",score,"Well done,",name)
 if score <= 5:
   print("Do some practice and have another go.")

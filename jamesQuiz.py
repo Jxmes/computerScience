@@ -12,13 +12,13 @@ begin = input("Are you ready? ")
 time.sleep(1)
 
 if begin == "yes":
-    
+
     time.sleep(1)
 
     print("Welcome to the Maths Quiz",name,"!")
 
     time.sleep(1)
-    
+
     while counter<10:
      number1 = random.randint(0,20)
      number2 = random.randint(0,15)
@@ -39,7 +39,7 @@ if begin == "yes":
         ans = number1 - number2
         counter = counter+1
 
-     useranswer = int(input()) 
+     useranswer = int(input())
      if useranswer == ans:
         print("Correct!")
         userscore = userscore + 1
@@ -58,22 +58,3 @@ else:
     sys.exit()
 
     time.sleep(4)
-
-
-
-
-
-
-
-
-    
-    
-    
-
-
-
-
-
-
-
-
