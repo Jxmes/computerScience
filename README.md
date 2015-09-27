@@ -4,6 +4,15 @@
 [![Throughput Graph](https://graphs.waffle.io/A1fus/computerScience/throughput.svg)](https://waffle.io/A1fus/computerScience/metrics)
 
 
+##Contents
+* What is it?
+* Projects
+  * arithmeticQuiz.py
+    * About
+    * Requirements
+    * Installation
+
+
 ## What is it?
 `computerScience` is a collection of programs produced by Alfie ['A1fus'](twitter.com/a1fus) Bowman.
 
