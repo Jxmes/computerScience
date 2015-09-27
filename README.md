@@ -24,3 +24,7 @@ Once 10 questions have been answered, it outputs the final score and gives an en
 
 #### Requirements
 * [Python 3.4](https://www.python.org/downloads/release/python-342/)
+
+
+#### Installation
+Simply [download the ZIP](https://github.com/A1fus/computerScience/archive/master.zip) of this repo or, if you're fancy, [clone this repo](github-windows://openRepo/https://github.com/A1fus/computerScience) into  [GitHub Desktop](https://desktop.github.com/) for your particular platform.
