@@ -29,7 +29,7 @@ for counter in range(0,10):
   counter = counter + 1
   numberOne = random.randint(0,11)
   numberTwo = random.randint(0,11)
-  operator = random.randint(0,4)
+  operator = random.randint(1,3)
 
   if operator == 1:
     print("Question",counter,"What is ",numberOne,"+",numberTwo,)
