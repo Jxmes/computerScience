@@ -28,3 +28,7 @@ Once 10 questions have been answered, it outputs the final score and gives an en
 
 #### Installation
 Simply [download the ZIP](https://github.com/A1fus/computerScience/archive/master.zip) of this repo or, if you're fancy, [clone this repo](github-windows://openRepo/https://github.com/A1fus/computerScience) into  [GitHub Desktop](https://desktop.github.com/) for your particular platform. From there execute the program with Python.
+
+
+#### Downloads
+* [V1.0.0](https://github.com/A1fus/computerScience/archive/aQ-V1.0.zip)
