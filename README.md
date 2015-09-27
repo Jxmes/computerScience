@@ -14,7 +14,7 @@
 
 
 ## What is it?
-`computerScience` is a collection of programs produced by Alfie ['A1fus'](twitter.com/a1fus) Bowman.
+`computerScience` is a collection of programs produced by Alfie '[A1fus](twitter.com/a1fus)' Bowman.
 
 It contains an assortment of programs, from experiments to final productions. As a collective, it is clear to see how one idea led to the next and so forth.
 
