@@ -18,6 +18,7 @@ It contains an assortment of programs, from experiments to final productions. As
 ### arithmeticQuiz.py
 `arithmeticQuiz` is a fully automated maths test. It produces a set of 10 randomly generated maths questions using `random.randint` from Python's default `random` module.
 
+#### About
 It asks for 2 numbers to be generated and an operator that can take a numerical value from 1-3. this is then corresponded to a particular operator that has already been defined.
 
 Once 10 questions have been answered, it outputs the final score and gives an encouraging message to the user.
