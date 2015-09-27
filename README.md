@@ -22,3 +22,7 @@ It contains an assortment of programs, from experiments to final productions. As
 It asks for 2 numbers to be generated and an operator that can take a numerical value from 1-3. this is then corresponded to a particular operator that has already been defined.
 
 Once 10 questions have been answered, it outputs the final score and gives an encouraging message to the user.
+
+
+#### Requirements
+* [Python 3.4](https://www.python.org/downloads/release/python-342/)
