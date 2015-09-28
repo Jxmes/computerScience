@@ -22,6 +22,9 @@
     * Installation
   * goingLoopyWithPython.py
     * About
+    * Dependencies
+    * Installation
+  *
 
 
 ## What is it?
@@ -109,4 +112,15 @@ Simply [download the ZIP](https://github.com/A1fus/computerScience/archive/maste
 The next loop it makes is `while` the `value` variable is less than 101, it prints the value and adds one to it, creating a further incrementing loop.
 
 The final loop that this program contains is the same as the one above, but uses a number entered by the user. It does this by using the `input()` function. In my first version of this program, it uses the `input()` soley, but I have since learnt that it takes the input as a string and the `input()` needs to be wrapped in an `int()`.
+
+
+#### Dependencies
+* [Python 3.4](https://www.python.org/downloads/release/python-342/)
+
+
+#### Installation
+Simply [download the ZIP](https://github.com/A1fus/computerScience/archive/master.zip) of this repo or, if you're fancy, [clone this repo](github-windows://openRepo/https://github.com/A1fus/computerScience) into  [GitHub Desktop](https://desktop.github.com/) for your particular platform. From there execute the program with Python.
+
+
+---
 
