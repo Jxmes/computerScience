@@ -26,6 +26,9 @@
     * Installation
   * pseudoArithmeticQuiz.md
     * About
+    * Dependencies
+    * Installation
+    * Downloads
 
 
 ## What is it?
@@ -132,4 +135,14 @@ Simply [download the ZIP](https://github.com/A1fus/computerScience/archive/maste
 #### About
 This is a [Pseudocode](https://en.wikipedia.org/wiki/Pseudocode) version of my [arithmeticQuiz](https://github.com/A1fus/computerScience/blob/master/arithmeticQuiz.py). I created this as part of my Controlled Assessment task. It probably isn't a good example of how to use Pseudocode, nor does it accurately represent my code that well. Although it is a start.
 
+
+#### Dependencies
+It's a text document.
+
+
+#### Installation
+Simply [download the ZIP](https://github.com/A1fus/computerScience/archive/master.zip) of this repo or, if you're fancy, [clone this repo](github-windows://openRepo/https://github.com/A1fus/computerScience) into  [GitHub Desktop](https://desktop.github.com/) for your particular platform.
+
+
+---
 
