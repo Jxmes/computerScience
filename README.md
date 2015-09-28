@@ -12,6 +12,7 @@
     * Requirements
     * Installation
     * Downloads
+  * bronzeCert.py
 
 
 ## What is it?
@@ -42,3 +43,9 @@ Simply [download the ZIP](https://github.com/A1fus/computerScience/archive/maste
 
 #### Downloads
 * [V1.0.0](https://github.com/A1fus/computerScience/archive/aQ-V1.0.zip)
+
+
+---
+
+
+### bronzeCert.py
