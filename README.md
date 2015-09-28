@@ -11,6 +11,7 @@
     * About
     * Requirements
     * Installation
+    * Downloads
 
 
 ## What is it?
