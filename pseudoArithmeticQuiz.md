@@ -22,4 +22,14 @@ WHILE counter < 10:
       OUTPUT congratulations message;
     ELSE:
       OUTPUT unlucky message;
+  
+OUTPUT congratulations message with total score;
+IF score IS <= 5:
+  OUTPUT try harder next time message;
+ELIF score IS < 7:
+  OUTPUT almost there message;
+ELSE:
+  OUTPUT well done message;
+  
+END
 ```
