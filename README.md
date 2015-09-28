@@ -16,6 +16,8 @@
     * About
     * Requirements
     * Installation
+  * generalKnowledge.py
+    * About
 
 
 ## What is it?
@@ -68,3 +70,16 @@ Simply [download the ZIP](https://github.com/A1fus/computerScience/archive/maste
 
 ---
 
+
+### generalKnowledge.py
+
+
+#### About
+`generalKnowledge` is a basic quiz built in [Python](https://python.org/). It takes the user's name and asks them five questions based on current and past events. It has limitations, for exaple:
+
+```python
+if answerOne == "Tennessee":
+    print("Correct! You scored a point (☞ﾟヮﾟ)☞")
+```
+
+The quiz requires an exact string to be entered for the user to be given a point. This means that sometimes it can be difficult to get the correct answer.
