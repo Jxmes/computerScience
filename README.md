@@ -20,6 +20,8 @@
     * About
     * Dependencies
     * Installation
+  * goingLoopyWithPython.py
+    * About
 
 
 ## What is it?
@@ -96,4 +98,15 @@ Simply [download the ZIP](https://github.com/A1fus/computerScience/archive/maste
 
 
 ---
+
+
+### goingLoopyWithPython.py
+
+
+#### About
+`goingLoopyWithPython` is my work for one of my early lessons. It is about using the `while` function to generate loops. The first loop it makes is `while` the `lines` variable is less than 50, it `print`s a string and adds 1 to the `lines` variable.
+
+The next loop it makes is `while` the `value` variable is less than 101, it `print`s the value and adds one to it, creating a further incrementing loop.
+
+The final loop that this program contains is the same as the one above, but uses a number entered by the user. It does this by using the `input()` function. In my first version of this program, it uses the `input()` soley, but I have since learnt that it takes the input as a string and the `input()` needs to be wrapped in an `int()`.
 
