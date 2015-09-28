@@ -9,15 +9,17 @@
 * Projects
   * arithmeticQuiz.py
     * About
-    * Requirements
+    * Dependencies
     * Installation
     * Downloads
   * bronzeCert.py
     * About
-    * Requirements
+    * Dependencies
     * Installation
   * generalKnowledge.py
     * About
+    * Dependencies
+    * Installation
 
 
 ## What is it?
@@ -38,7 +40,7 @@ It asks for 2 numbers to be generated and an operator that can take a numerical 
 Once 10 questions have been answered, it outputs the final score and gives an encouraging message to the user.
 
 
-#### Requirements
+#### Dependencies
 * [Python 3.4](https://www.python.org/downloads/release/python-342/)
 
 
@@ -60,7 +62,7 @@ Simply [download the ZIP](https://github.com/A1fus/computerScience/archive/maste
 `bronzeCert` is an answer to questions listed in a task sheet. It uses the `print` function to display the line, 'hello, world'. it also uses the `print` function to show that when integers are placed in it, it prints the answer. It details the author and date of creation in a comment. Another comment is used to explain why comments might be useful. Finally, it shows that using `\n` in a string causes it to start a new line.
 
 
-#### Requirements
+#### Dependencies
 * [Python 3.4](https://www.python.org/downloads/release/python-342/)
 
 
@@ -83,3 +85,15 @@ if answerOne == "Tennessee":
 ```
 
 The quiz requires an exact string to be entered for the user to be given a point. This means that sometimes it can be difficult to get the correct answer.
+
+
+#### Dependencies
+* [Python 3.4](https://www.python.org/downloads/release/python-342/)
+
+
+#### Installation
+Simply [download the ZIP](https://github.com/A1fus/computerScience/archive/master.zip) of this repo or, if you're fancy, [clone this repo](github-windows://openRepo/https://github.com/A1fus/computerScience) into  [GitHub Desktop](https://desktop.github.com/) for your particular platform. From there execute the program with Python.
+
+
+---
+
