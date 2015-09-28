@@ -53,3 +53,11 @@ Simply [download the ZIP](https://github.com/A1fus/computerScience/archive/maste
 
 #### About
 `bronzeCert` is an answer to questions listed in a task sheet. It uses the `print` function to display the line, 'hello, world'. it also uses the `print` function to show that when integers are placed in it, it prints the answer. It details the author and date of creation in a comment. Another comment is used to explain why comments might be useful. Finally, it shows that using `\n` in a string causes it to start a new line.
+
+
+#### Requirements
+* [Python 3.4](https://www.python.org/downloads/release/python-342/)
+
+
+#### Installation
+Simply [download the ZIP](https://github.com/A1fus/computerScience/archive/master.zip) of this repo or, if you're fancy, [clone this repo](github-windows://openRepo/https://github.com/A1fus/computerScience) into  [GitHub Desktop](https://desktop.github.com/) for your particular platform. From there execute the program with Python.
