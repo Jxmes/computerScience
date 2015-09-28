@@ -13,6 +13,9 @@
     * Installation
     * Downloads
   * bronzeCert.py
+    * About
+    * Requirements
+    * Installation
 
 
 ## What is it?
@@ -61,3 +64,7 @@ Simply [download the ZIP](https://github.com/A1fus/computerScience/archive/maste
 
 #### Installation
 Simply [download the ZIP](https://github.com/A1fus/computerScience/archive/master.zip) of this repo or, if you're fancy, [clone this repo](github-windows://openRepo/https://github.com/A1fus/computerScience) into  [GitHub Desktop](https://desktop.github.com/) for your particular platform. From there execute the program with Python.
+
+
+---
+
