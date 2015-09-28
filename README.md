@@ -49,3 +49,7 @@ Simply [download the ZIP](https://github.com/A1fus/computerScience/archive/maste
 
 
 ### bronzeCert.py
+
+
+#### About
+`bronzeCert` is an answer to questions listed in a task sheet. It uses the `print` function to display the line, 'hello, world'. it also uses the `print` function to show that when integers are placed in it, it prints the answer. It details the author and date of creation in a comment. Another comment is used to explain why comments might be useful. Finally, it shows that using `\n` in a string causes it to start a new line.
