@@ -145,8 +145,8 @@ Simply [download the ZIP](https://github.com/A1fus/computerScience/archive/maste
 
 
 #### Downloads
+* [V1.1.0](https://github.com/A1fus/computerScience/releases/tag/pAQ-V1.1.0)
 * [V1.0.0](https://github.com/A1fus/computerScience/releases/tag/pAQ-V1.0.0)
 
 
 ---
-
