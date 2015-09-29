@@ -1,4 +1,4 @@
-*Pseudocode for arithmeticQuiz.py*
+*Pseudocode for [arithmeticQuiz.py](https://github.com/A1fus/computerScience/blob/master/arithmeticQuiz.py)*
 
 ```
 START
