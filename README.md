@@ -156,3 +156,12 @@ Simply [download the ZIP](https://github.com/A1fus/computerScience/archive/maste
 ### pseudoTeabags.md
 
 
+#### About
+`pseudoTeabags` is a first go at Pseudocode for me. It outlines the way to produce a very British cup of tea in a way that a simple robot might understand. It tries to follow some guidelines, such as making functions in BLOCK CAPS. Have a read and see what you think.
+
+
+#### Dependencies
+It's just a text document, nothing to run!
+
+
+Installation
