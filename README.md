@@ -33,6 +33,10 @@
     * About
     * Dependencies
     * Installation
+  * silverCert.py
+    * About
+    * Dependencies
+    * Installation
 
 ## What is it?
 `computerScience` is a collection of programs produced by Alfie '[A1fus](twitter.com/a1fus)' Bowman.
@@ -169,3 +173,21 @@ It's just a text document, nothing to run!
 
 #### Installation
 Simply [download the ZIP](https://github.com/A1fus/computerScience/archive/master.zip) of this repo or, if you're fancy, [clone this repo](github-windows://openRepo/https://github.com/A1fus/computerScience) into  [GitHub Desktop](https://desktop.github.com/) for your particular platform.
+
+
+---
+
+
+### silverCert.py
+
+
+#### About
+`silverCert` is an answer to questions listed in a task sheet. it shows how `print()` can print a variable containing an integer. it describes what a variable is and, amongst other things, takes the user's name and outputs it.
+
+
+#### Dependencies
+* [Python 3.4](https://www.python.org/downloads/release/python-342/)
+
+
+#### Installation
+Simply [download the ZIP](https://github.com/A1fus/computerScience/archive/master.zip) of this repo or, if you're fancy, [clone this repo](github-windows://openRepo/https://github.com/A1fus/computerScience) into  [GitHub Desktop](https://desktop.github.com/) for your particular platform. From there execute the program with Python.
