@@ -30,6 +30,9 @@
     * Installation
     * Downloads
   * pseudoTeabags.md
+    * About
+    * Dependencies
+    * Installation
 
 ## What is it?
 `computerScience` is a collection of programs produced by Alfie '[A1fus](twitter.com/a1fus)' Bowman.
