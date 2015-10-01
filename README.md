@@ -4,7 +4,7 @@
 [![Throughput Graph](https://graphs.waffle.io/A1fus/computerScience/throughput.svg)](https://waffle.io/A1fus/computerScience/metrics)
 
 
-##Contents
+## Contents
 * What is it?
 * Projects
   * arithmeticQuiz.py
@@ -72,7 +72,7 @@ Simply [download the ZIP](https://github.com/A1fus/computerScience/archive/maste
 * [V1.0.0](https://github.com/A1fus/computerScience/archive/aQ-V1.0.zip)
 
 
----
+--
 
 
 ### bronzeCert.py
@@ -90,7 +90,7 @@ Simply [download the ZIP](https://github.com/A1fus/computerScience/archive/maste
 Simply [download the ZIP](https://github.com/A1fus/computerScience/archive/master.zip) of this repo or, if you're fancy, [clone this repo](github-windows://openRepo/https://github.com/A1fus/computerScience) into  [GitHub Desktop](https://desktop.github.com/) for your particular platform. From there execute the program with Python.
 
 
----
+--
 
 
 ### generalKnowledge.py
@@ -115,7 +115,7 @@ The quiz requires an exact string to be entered for the user to be given a point
 Simply [download the ZIP](https://github.com/A1fus/computerScience/archive/master.zip) of this repo or, if you're fancy, [clone this repo](github-windows://openRepo/https://github.com/A1fus/computerScience) into  [GitHub Desktop](https://desktop.github.com/) for your particular platform. From there execute the program with Python.
 
 
----
+--
 
 
 ### goingLoopyWithPython.py
@@ -137,7 +137,7 @@ The final loop that this program contains is the same as the one above, but uses
 Simply [download the ZIP](https://github.com/A1fus/computerScience/archive/master.zip) of this repo or, if you're fancy, [clone this repo](github-windows://openRepo/https://github.com/A1fus/computerScience) into  [GitHub Desktop](https://desktop.github.com/) for your particular platform. From there execute the program with Python.
 
 
----
+--
 
 
 ### pseudoArithmeticQuiz.md
@@ -161,7 +161,7 @@ Simply [download the ZIP](https://github.com/A1fus/computerScience/archive/maste
 * [V1.0.0](https://github.com/A1fus/computerScience/releases/tag/pAQ-V1.0.0)
 
 
----
+--
 
 
 ### pseudoTeabags.md
@@ -179,7 +179,7 @@ It's just a text document, nothing to run!
 Simply [download the ZIP](https://github.com/A1fus/computerScience/archive/master.zip) of this repo or, if you're fancy, [clone this repo](github-windows://openRepo/https://github.com/A1fus/computerScience) into  [GitHub Desktop](https://desktop.github.com/) for your particular platform.
 
 
----
+--
 
 
 ### silverCert.py
@@ -197,7 +197,7 @@ Simply [download the ZIP](https://github.com/A1fus/computerScience/archive/maste
 Simply [download the ZIP](https://github.com/A1fus/computerScience/archive/master.zip) of this repo or, if you're fancy, [clone this repo](github-windows://openRepo/https://github.com/A1fus/computerScience) into  [GitHub Desktop](https://desktop.github.com/) for your particular platform. From there execute the program with Python.
 
 
----
+--
 
 
 ### teabags.md
