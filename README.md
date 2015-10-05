@@ -215,4 +215,12 @@ It's just a text document, nothing to run!
 Simply [download the ZIP](https://github.com/A1fus/computerScience/archive/master.zip) of this repo or, if you're fancy, [clone this repo](github-windows://openRepo/https://github.com/A1fus/computerScience) into  [GitHub Desktop](https://desktop.github.com/) for your particular platform.
 
 
---
+---
+
+
+## Versions
+Files in `computerScience` have versioning formats similar to [Semver](http://semver.org/) with the following version convention:
+
+- MAJOR should be regarded as a collection of features that are a major milestone towards the next stage in a project.
+- MINOR should be regarded as a feature addition
+- A PATCH should be regarded as a bug fix
