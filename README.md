@@ -71,8 +71,8 @@ Simply [download the ZIP](https://github.com/A1fus/computerScience/archive/maste
 
 
 #### Downloads
-* [V1.0.0](https://github.com/A1fus/computerScience/archive/aQ-V1.0.zip)
 * [V1.1.0](https://github.com/A1fus/computerScience/archive/aQ-V1.1.0.zip)
+* [V1.0.0](https://github.com/A1fus/computerScience/archive/aQ-V1.0.zip)
 
 
 --
@@ -225,7 +225,8 @@ Simply [download the ZIP](https://github.com/A1fus/computerScience/archive/maste
 
 
 #### Downloads
-[V0.1.1](https://github.com/A1fus/computerScience/archive/bL-V0.1.1.zip)
+* [V1.0.0](https://github.com/A1fus/computerScience/archive/bL-V1.0.0.zip)
+* [V0.1.1](https://github.com/A1fus/computerScience/archive/bL-V0.1.1.zip)
 
 
 ---
@@ -236,4 +237,10 @@ Files in `computerScience` have versioning formats similar to [Semver](http://se
 
 - MAJOR should be regarded as a collection of features that are a major milestone towards the next stage in a project.
 - MINOR should be regarded as a feature addition
-- A PATCH should be regarded as a bug fix
+- PATCH should be regarded as a bug fix
+
+When a version of a higher tier is added, it resets all the previous tiers back to 0. For example:
+  `dummyProgram.py` is in version `4.8.2`
+   A feature is added, making the version `4.9.0`
+
+Versions can go above 10, so `dummyProgram.py` could go all the way to `4.72.0`, for example.
