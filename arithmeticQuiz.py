@@ -7,23 +7,23 @@ numberOne = 0   #opens the variable that stores the first number to be used in e
 numberTwo = 0   #opens the variable that stores the second number to be used in each question
 operator = 0    #opens the variable that stores the number to be assigned to the operator in each question
 
-name = input("What is your name user?  ")
+name = input("What is your name user?  ")    #asks the user for their name so it can be used in the program.
 
-while name == "":
-   time.sleep(1)
-   name = input("Hello, \nWhat is your name? ")
+while name == "":    #while the name variable is empty, it runs the code that is entered.
+   time.sleep(1)     #pauses the program for a second
+   name = input("Hello, \nWhat is your name? ")    #reasks for the user's name.
 
-print("Weclome to the quiz,",name)
-time.sleep(1)
+print("Weclome to the quiz,",name)     #welcomes the user to the quiz
+time.sleep(1)   #pauses the program for a second
 
-def add(x, y):
-  return x + y;
+def add (x, y):  #defines the add variable
+  return x + y;  #tells the computer what to do when the add variable is called
 
-def subtract (x, y):
-  return x - y;
+def subtract (x, y):  #defines the subtract variable
+  return x - y;       #tells the computer what to do when the subtract variable is called
 
-def multiply (x, y):
-  return x * y;
+def multiply (x, y):  #defines the multiply variable
+  return x * y;       #tells the computer what to do when the multiply variable is callled
 
 for counter in range(0,10):
   counter = counter + 1
