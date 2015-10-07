@@ -1,4 +1,4 @@
-# computerScience [![Build Status](https://travis-ci.org/A1fus/computerScience.svg?branch=master)](https://travis-ci.org/A1fus/computerScience) [![Stories in Ready](https://badge.waffle.io/A1fus/computerScience.png?label=ready&title=Ready)](http://waffle.io/A1fus/computerScience)  [![Stories In Progress](https://badge.waffle.io/A1fus/computerScience.png?label=in progress&title=In Progress)](http://waffle.io/A1fus/computerScience)
+# computerScience [![Stories in Ready](https://badge.waffle.io/A1fus/computerScience.png?label=ready&title=Ready)](http://waffle.io/A1fus/computerScience)  [![Stories In Progress](https://badge.waffle.io/A1fus/computerScience.png?label=in progress&title=In Progress)](http://waffle.io/A1fus/computerScience)
 
 
 [![Throughput Graph](https://graphs.waffle.io/A1fus/computerScience/throughput.svg)](https://waffle.io/A1fus/computerScience/metrics)
