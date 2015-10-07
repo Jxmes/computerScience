@@ -46,13 +46,13 @@ for counter in range(0,10):        #when the counter variable is in the range of
 
   res = int(input("Write your answer here: ")) #asks for the answer for the user so it can be checked to see if it is the right answer.
 
-  if res == ans:
-    print("Congratulations,",name,"! 1 point scored.")
-    time.sleep(1)
-    score = score + 1
-  else:
-    print("Unlucky",name,"! No points scored.")
-    time.sleep(1)
+  if res == ans:      #when the result is the same as the answer, the indented code runs
+    print("Congratulations,",name,"! 1 point scored.")   #prints a congratulations message to the user.
+    time.sleep(1)     #pauses the program for a second
+    score = score + 1 #adds one to the score variable
+  else:    #when the result isn't the same as the answer, the indented code runs   
+    print("Unlucky",name,"! No points scored.")    #prints an unluck message to the user
+    time.sleep(1)     #pauses the program for a second
 
 print("That's it! You've completed the quiz.\nYour total socore was...",score,"Well done,",name)
 if score <= 5:
