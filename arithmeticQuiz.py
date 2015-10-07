@@ -54,10 +54,10 @@ for counter in range(0,10):        #when the counter variable is in the range of
     print("Unlucky",name,"! No points scored.")    #prints an unluck message to the user
     time.sleep(1)     #pauses the program for a second
 
-print("That's it! You've completed the quiz.\nYour total socore was...",score,"Well done,",name)
-if score <= 5:
-  print("Do some practice and have another go.")
-elif score < 7:
-  print("You're almost there! have another try.")
-else:
-  print("You've done very well!")
+print("That's it! You've completed the quiz.\nYour total socore was...",score,"Well done,",name)   #concludes the program, printing the final score
+if score <= 5:    #when the score variable is less than or equal to 5, the indented code runs
+  print("Do some practice and have another go.")   #prints an encouraging message to the user
+elif score < 7:   #when the score variable is less than 7, the indented code runs
+  print("You're almost there! have another try.")  #prints an 'almost there' message
+else:    #when the score is more than 7, the score is more than 7, the  indented code runs
+  print("You've done very well!")   #prints a congratulations message
