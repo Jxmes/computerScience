@@ -25,11 +25,11 @@ def subtract (x, y):  #defines the subtract variable
 def multiply (x, y):  #defines the multiply variable
   return x * y;       #tells the computer what to do when the multiply variable is callled
 
-for counter in range(0,10):
-  counter = counter + 1
-  numberOne = random.randint(0,11)
-  numberTwo = random.randint(0,11)
-  operator = random.randint(1,3)
+for counter in range(0,10):        #when the counter variable is in the range of 1 to 10, it runs all the indented code
+  counter = counter + 1            #adds one to the counter variable
+  numberOne = random.randint(0,11) #randomly generates a number to be used in the question
+  numberTwo = random.randint(0,11) #randomly generates a number to be used in the question
+  operator = random.randint(1,3)   #randomly generates a number to be used in the question
 
   if operator == 1:
     print("Question",counter,"What is ",numberOne,"+",numberTwo,)
