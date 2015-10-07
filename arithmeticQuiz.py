@@ -1,5 +1,5 @@
 import random   #imports the default Python random module, which allows for random number generation
-import time     #imports the default Python time module, which allows for pauses in the prgram
+import time     #imports the default Python time module, which allows for pauses in the program
 
 counter = 1     #defines the counter, which counts up to 10 each time a question is asked
 score = 0       #defines the user's score so it can be counted as they get questions right
@@ -31,20 +31,20 @@ for counter in range(0,10):        #when the counter variable is in the range of
   numberTwo = random.randint(0,11) #randomly generates a number to be used in the question
   operator = random.randint(1,3)   #randomly generates a number to be used in the question
 
-  if operator == 1:
-    print("Question",counter,"What is ",numberOne,"+",numberTwo,)
-    time.sleep(1)
-    ans = add(numberOne, numberTwo)
-  elif operator == 2:
-    print("Question",counter,"What is ",numberOne,"-",numberTwo,)
-    time.sleep(1)
-    ans = subtract(numberOne, numberTwo)
-  else:
-    print("Question",counter,"What is ",numberOne,"*",numberTwo)
-    time.sleep(1)
-    ans = multiply(numberOne, numberTwo)
+  if operator == 1:   #when the operator variable is 1, it runs the indented code
+    print("Question",counter,"What is ",numberOne,"+",numberTwo,)    #prints the question using the add variable
+    time.sleep(1)     #pauses the program for a second
+    ans = add(numberOne, numberTwo)    #defines the question for the computer so it can be compared to the user's input
+  elif operator == 2: #when the operator varialbe is 2, it runs the indented code
+    print("Question",counter,"What is ",numberOne,"-",numberTwo,)    #prints the question using the subtract variable
+    time.sleep(1)     #pauses the program for a second
+    ans = subtract(numberOne, numberTwo) #defines the question for the computer so it can be compared to the user's input
+  else:     #when the operator varialbe is 3, it runs the indented code
+    print("Question",counter,"What is ",numberOne,"*",numberTwo)     #prints the question using the multiply variable
+    time.sleep(1)     #pauses the program for a second
+    ans = multiply(numberOne, numberTwo) #defines the question for the computer so it can be compared to the user's input
 
-  res = int(input("Write your answer here: "))
+  res = int(input("Write your answer here: ")) #asks for the answer for the user so it can be checked to see if it is the right answer.
 
   if res == ans:
     print("Congratulations,",name,"! 1 point scored.")
