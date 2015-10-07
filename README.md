@@ -70,6 +70,7 @@ Simply [download the ZIP](https://github.com/A1fus/computerScience/archive/maste
 
 #### Downloads
 * [V1.0.0](https://github.com/A1fus/computerScience/archive/aQ-V1.0.zip)
+* [V1.1.0](https://github.com/A1fus/computerScience/archive/aQ-V1.1.0.zip)
 
 
 --
@@ -156,9 +157,9 @@ Simply [download the ZIP](https://github.com/A1fus/computerScience/archive/maste
 
 
 #### Downloads
-* [V1.2.0](https://github.com/A1fus/computerScience/releases/tag/pAQ-V1.2.0)
-* [V1.1.0](https://github.com/A1fus/computerScience/releases/tag/pAQ-V1.1.0)
-* [V1.0.0](https://github.com/A1fus/computerScience/releases/tag/pAQ-V1.0.0)
+* [V1.2.0](https://github.com/A1fus/computerScience/archive/pAQ-V1.2.0.zip)
+* [V1.1.0](https://github.com/A1fus/computerScience/archive/pAQ-V1.1.0.zip)
+* [V1.0.0](https://github.com/A1fus/computerScience/archive/pAQ-V1.0.0.zip)
 
 
 --
