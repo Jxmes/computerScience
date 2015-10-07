@@ -41,6 +41,8 @@
     * About
     * Dependencies
     * Installation
+  * bowmanLaughs.py
+    * Downloads
 
 ## What is it?
 `computerScience` is a collection of programs produced by Alfie '[A1fus](twitter.com/a1fus)' Bowman.
@@ -214,6 +216,16 @@ It's just a text document, nothing to run!
 
 #### Installation
 Simply [download the ZIP](https://github.com/A1fus/computerScience/archive/master.zip) of this repo or, if you're fancy, [clone this repo](github-windows://openRepo/https://github.com/A1fus/computerScience) into  [GitHub Desktop](https://desktop.github.com/) for your particular platform.
+
+
+--
+
+
+### bowmanLaughs.py
+
+
+#### Downloads
+[V0.1.1](https://github.com/A1fus/computerScience/archive/bL-V0.1.1.zip)
 
 
 ---
