@@ -7,7 +7,7 @@ import time    #imports the time module which allows for a pause inbetween print
 
 score = 0    #defines the user's score before starting
 
-name = input("What is your name user?")
+name = input("What is your name user?   ")
 
 print("Welcome to The Quiz, ",name,"\nWe'll be asking a series of general knowledge questions.")    #introduces the user to the quiz on two seperate lines
 time.sleep(1)    #stops the program for one second
@@ -50,7 +50,7 @@ if answerFour == "cake":
      score = score + 1
 else:
     print("Unlucky! No points scored ಠ_ಠ.")
-    time.sleep(1)
+    time.sleep(1) #this makes it sleep
 
 answerFive = input("Question 5:\nSince 1995, how many teams compete in The Rugby World Cup?    ")
 time.sleep(1)
@@ -66,8 +66,3 @@ print("And that's it! your total score was...,")
 time.sleep(2)
 print(score,"!!!\nCONGRATULATIONS (づ｡◕‿‿◕｡)づ")
 print(name)
-
-
-                 
-
-
