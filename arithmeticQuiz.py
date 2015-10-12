@@ -11,6 +11,7 @@ classTwo   = open("classTwo.txt","a")
 classThree = open("classThree.txt","a")
 
 name = input("What is your name user?  ")    #asks the user for their name so it can be used in the program.
+whichClass = input("And which class are you in, Class One, Class Two or Class Three? ")
 
 while name == "":    #while the name variable is empty, it runs the code that is entered.
    time.sleep(1)     #pauses the program for a second
