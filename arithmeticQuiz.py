@@ -6,12 +6,16 @@ score      = 0    #defines the user's score so it can be counted as they get que
 numberOne  = 0    #opens the variable that stores the first number to be used in each question
 numberTwo  = 0    #opens the variable that stores the second number to be used in each question
 operator   = 0    #opens the variable that stores the number to be assigned to the operator in each question
-classOne   = open("classOne.txt","a")
-classTwo   = open("classTwo.txt","a")
-classThree = open("classThree.txt","a")
 
 name = input("What is your name user?  ")    #asks the user for their name so it can be used in the program.
-whichClass = input("And which class are you in, Class One, Class Two or Class Three? ")
+whichClass = input("And which class are you in, 1, 2 or 3? ")
+
+if whichClass == "1":
+   classOne = open("classOne.txt","a")
+elif whichClass == "2":
+   classTwo = open("classTwo.txt","a")
+else:
+   classThree = open("classThree.txt","a")
 
 while name == "":    #while the name variable is empty, it runs the code that is entered.
    time.sleep(1)     #pauses the program for a second
