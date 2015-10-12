@@ -14,7 +14,7 @@ if whichClass == "1" or whichClass == "Class One":
    classOne = open("classOne.txt","a")
 elif whichClass == "2" or whichClass == "Class Two":
    classTwo = open("classTwo.txt","a")
-else:                      
+else:
    classThree = open("classThree.txt","a")
 
 while name == "":    #while the name variable is empty, it runs the code that is entered.
