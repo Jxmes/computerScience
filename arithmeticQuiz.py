@@ -1,11 +1,14 @@
 import random   #imports the default Python random module, which allows for random number generation
 import time     #imports the default Python time module, which allows for pauses in the program
 
-counter = 1     #defines the counter, which counts up to 10 each time a question is asked
-score = 0       #defines the user's score so it can be counted as they get questions right
-numberOne = 0   #opens the variable that stores the first number to be used in each question
-numberTwo = 0   #opens the variable that stores the second number to be used in each question
-operator = 0    #opens the variable that stores the number to be assigned to the operator in each question
+counter    = 1    #defines the counter, which counts up to 10 each time a question is asked
+score      = 0    #defines the user's score so it can be counted as they get questions right
+numberOne  = 0    #opens the variable that stores the first number to be used in each question
+numberTwo  = 0    #opens the variable that stores the second number to be used in each question
+operator   = 0    #opens the variable that stores the number to be assigned to the operator in each question
+classOne   = open("classOne.txt","a")
+classTwo   = open("classTwo.txt","a")
+classThree = open("classThree.txt","a")
 
 name = input("What is your name user?  ")    #asks the user for their name so it can be used in the program.
 
