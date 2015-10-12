@@ -10,11 +10,11 @@ operator   = 0    #opens the variable that stores the number to be assigned to t
 name = input("What is your name user?  ")    #asks the user for their name so it can be used in the program.
 whichClass = input("And which class are you in, 1, 2 or 3? ")
 
-if whichClass == "1":
+if whichClass == "1" or whichClass == "Class One":
    classOne = open("classOne.txt","a")
-elif whichClass == "2":
+elif whichClass == "2" or whichClass == "Class Two":
    classTwo = open("classTwo.txt","a")
-else:
+else:                      
    classThree = open("classThree.txt","a")
 
 while name == "":    #while the name variable is empty, it runs the code that is entered.
