@@ -63,6 +63,13 @@ for counter in range(0,10):        #when the counter variable is in the range of
     time.sleep(1)     #pauses the program for a second
 
 print("That's it! You've completed the quiz.\nYour total socore was...",score,"Well done,",name)   #concludes the program, printing the final score
+
+time.sleep(1)
+file.write("\n"name,":",score)
+print("Your score has been saved to your class' file.")
+time.sleep(1)
+
+print("Your score has been written to the your class' file.")
 if score <= 5:    #when the score variable is less than or equal to 5, the indented code runs
   print("Do some practice and have another go.")   #prints an encouraging message to the user
 elif score < 7:   #when the score variable is less than 7, the indented code runs
