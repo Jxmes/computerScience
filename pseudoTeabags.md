@@ -14,6 +14,6 @@ top up with milk to taste;
 IF sugar is required:
   THEN add sugar;
 ELSE:
-  do nithing;
+  do nothing;
 END
 ```
