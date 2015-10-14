@@ -60,4 +60,4 @@ if score <= 5:    #when the score variable is less than or equal to 5, the inden
 elif score < 7:   #when the score variable is less than 7, the indented code runs
   print("You're almost there! have another try.")  #prints an 'almost there' message
 else:    #when the score is more than 7, the score is more than 7, the  indented code runs
-  print("You've done very well!")   #prints a congratulations message
+  print("You've done very well!")   #this prints a congratulations message
