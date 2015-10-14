@@ -1,8 +1,8 @@
-##################################
-#Created for James Hancock
+#########################################################
+#Created for James Hancock because Bowman laughs too much
 #By Alfie 'A1fus' Bowman
 #On the 7th of October 2015
-##################################
+#########################################################
 
 
 import time
